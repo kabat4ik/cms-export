@@ -1,0 +1,27 @@
+{
+	"name": "skeeks/cms-export",
+	"description": "Content export for SkeekS CMS",
+	"keywords": ["yii", "skeeks", "framework", "component", "export"],
+	"homepage": "http://cms.skeeks.com/",
+	"type": "yii2-extension",
+	"license": "GPL-3.0+",
+	"support": {
+		"issues": "http://skeeks.com/",
+		"wiki": "http://en.cms.skeeks.com/docs/",
+		"source": "https://github.com/skeeks-cms/cms-export"
+	},
+	"authors": [
+		{
+			"name": "Vladimir Maslov",
+			"email": "mail@vladimm.name"
+		}
+	],
+	"require": {
+		"skeeks/cms": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"skeeks\\cms\\export\\": ""
+		}
+	}
+}
